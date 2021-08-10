@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Title 1",
+    "feed": "Lorem ipsum dolor doloribus magnam? Vero quo animi eveniet a quasi quas."
+  },
+  {
+    "id": 2,
+    "title": "Title 2",
+    "feed": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, delectus?"
+  },
+  {
+    "id": 3,
+    "title": "Title 3",
+    "feed": "Similique quidem adipisci debitis blanditiis. Voluptates aut soluta ducimus minima!"
+  },
+  {
+    "id": 4,
+    "title": "Title 4",
+    "feed": "Debitis labore dicta vero consequatur suscipit distinctio facere eos fugiat?"
+  },
+  {
+    "id": 5,
+    "title": "Title 5",
+    "feed": "Iusto, tenetur aperiam quisquam consequatur exercitationem eius eveniet iure. Nulla."
+  }
+]
