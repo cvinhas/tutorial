@@ -1,28 +1,21 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import { useRoutes } from "hookrouter";
+import routes from "./router";
+import { A } from "hookrouter";
+import NoPageFound from "./components/page_not_found";
 
-import JSON from './db.json';
-
-// COMPONENTS
-import Header from "./components/header";
-import NewsList from "./components/news_list";
-import Categories from './components/categories';
-
-class App extends Component {
-
-  state = {
-    news: JSON
-  };
-
-  render() {
-    return (
-
-      <div>
-        {/* <Header />
-        <NewsList news={this.state.news} /> */}
-        <Categories />
-      </div>);
-  }
+function App() {
+  const routeResult = useRoutes(routes);
+  return (
+    <div><ul>
+      <li><A href="/home">Home</A></li>
+      <li><A href="/categories">Categories List</A></li>
+      <li><A href="/categoryForm">New Category</A></li>
+    </ul>
+      {routeResult || <NoPageFound />}
+    </div>
+  );
 }
-
-ReactDOM.render(<App />, document.getElementById("root"));
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);;

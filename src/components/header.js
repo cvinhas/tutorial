@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/styles.css';
+import Categories from './categories';
 
 class Header extends Component {
 
@@ -9,11 +10,12 @@ class Header extends Component {
 
   render() {
     return (
-      <header>
-        <div className="logo">Logo</div>
-        <input type="text" onChange={(e) => this.inputChangeHandler(e)} />
-      </header >
-    );
+      <div>
+        <Header />
+        {/* <Header />
+         <NewsList news={this.state.news} /> */}
+        <Categories />
+      </div>);
   }
 }
 export default Header;
