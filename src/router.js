@@ -1,13 +1,14 @@
 import React from "react";
-import Categories from "./components/categories";
-import CategoryForm from "./components/category_form";
 import Home from "./components/home";
+import Categories from "./components/categories";
+import CategoryAdd from "./components/categoryAdd";
+
 import '../src/css/styles.css';
 
 const routes = {
     "/home": () => <Home />,
     "/categories": () => <Categories />,
-    "/categoryForm": () => <CategoryForm />,
+    "/categoryAdd": () => <CategoryAdd />,
 };
 
 export default routes;

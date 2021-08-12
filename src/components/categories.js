@@ -52,8 +52,8 @@ class Categories extends Component {
                 <tr key={category.idCategory}>
                     <td>{category.idCategory}</td>
                     <td>{category.strCategory}</td>
-                    <td>{category.strCategoryThumb}</td>
-                    <td>{category.strCategoryDescription}</td>
+                    <td> <img src={category.strCategoryThumb} alt="img" width="75" /> </td>
+                    <td className="text-hidden">{category.strCategoryDescription}</td>
                 </tr>
             );
         });

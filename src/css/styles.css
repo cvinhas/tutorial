@@ -40,3 +40,15 @@ header input {
   font-size: 20px;
   margin: 20px 0;
 }
+
+.myform {
+  
+}
+
+.text-hidden {
+  width: 50px; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 400px;
+}
