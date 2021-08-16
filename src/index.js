@@ -11,6 +11,7 @@ function App() {
       <li><A href="/home">Home</A></li>
       <li><A href="/categories">Categories List</A></li>
       <li><A href="/categoryAdd">New Category</A></li>
+      <li><A href="/testList">Test List</A></li>
     </ul>
       {routeResult || <NoPageFound />}
     </div>

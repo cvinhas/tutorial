@@ -14,12 +14,12 @@ class CategoryAdd extends Component {
     }
 
     handleChangeDesignacao(event) {
-        // console.log(event.target.value);
+        console.log(event.target.value);
         this.setState({ designacaoCategoria: event.target.value });
     }
 
     handleChangeDescricao(event) {
-        // console.log(event.target.value);
+        console.log(event.target.value);
         this.setState({ descricaoCategoria: event.target.value });
     }
 
