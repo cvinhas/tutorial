@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { useRoutes, A } from "hookrouter";
 import routes from "./router";
 import NoPageFound from "./components/page_not_found";
+import '../node_modules/react-bootstrap/dist/react-bootstrap';
 
 function App() {
   const routeResult = useRoutes(routes);

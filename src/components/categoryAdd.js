@@ -35,10 +35,6 @@ class CategoryAdd extends Component {
         console.log(`Form data: ${formData}`);
     }
 
-    handleInputChange(event) {
-        // const target = event.target;
-    }
-
     render() {
         return (
             <div className="myform">
